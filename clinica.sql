@@ -7,12 +7,12 @@ create table contatos(
 );
 create table convenios(
 	id int not null auto_increment primary key,
-	numero varchar(15),
+	numero varchar(15) not null,
 	nome varchar(50)
 );
 creat table enderecos(
 	id int not null auto_increment primary key, 
-	logradouro varchar(100),
+	logradouro varchar(100) not null,
 	bairro varchar(50),
 	cidade varchar(50), 
 	uf varchar(2),
