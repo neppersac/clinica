@@ -10,31 +10,27 @@ create table convenios(
 	numero varchar(15),
 	nome varchar(50)
 );
-	CREATE TABLE atendente(
-    id int not null auto_increment primary key,
-      nome varchar (100) not null,
-cpf varchar (11),
-dataNascimento date,
-sexo (1),
-salario float(10),
-      id_endereco int,
-      id_contato int
+create table atendente(
+ 	id int not null auto_increment primary key,
+      	nome varchar (100) not null,
+	cpf varchar (11),
+	dataNascimento date,
+	sexo (1),
+	salario float(10),
+      	id_endereco int,
+      	id_contato int
 );
 create table exames(
 	id int not null auto-increment primary key,
 	nome varchar (100) not null
 );
-create table consultas(
-	id int not null auto-increment primary key,
-	data datetime,
-	data-agendamento datetime,
-	id-atendente int,
-	id-clinica int
-	id-exame int,
-	id-receita int,
-	id-medico int,
-	id-paciente int,
-	id-convenio int,
-	diaginostico text
+create table enderecos(
+	id int not null auto_increment primary key,
+	logradouro varchar(100),
+	bairro varchar(50),
+	cidade varchar(50),
+	uf varchar(2),
+	cep varchar(10)
 );
+
 
