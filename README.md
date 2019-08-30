@@ -1,4 +1,4 @@
-# clinica
+# CLINICA
 Banco de Dados
 
 Sistema Gerenciador de Consulta Médica
