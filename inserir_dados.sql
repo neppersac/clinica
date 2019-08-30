@@ -17,3 +17,5 @@ INSERT INTO convenios (numero, nome) VALUES ( "1", "SUS");
 
 
 
+
+/** Inserir dados na tabela de atendentes*/
