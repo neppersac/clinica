@@ -10,4 +10,12 @@ create table convenios(
 	numero varchar(15),
 	nome varchar(50)
 );
+creat table enderecos(
+	id int not null auto_increment primary key, 
+	logradouro varchar(100),
+	bairro varchar(50),
+	cidade varchar(50), 
+	uf varchar(2),
+	cep varchar(10)
+);
 
