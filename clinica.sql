@@ -24,4 +24,17 @@ create table exames(
 	id int not null auto-increment primary key,
 	nome varchar (100) not null
 );
+create table consultas(
+	id int not null auto-increment primary key,
+	data datetime,
+	data-agendamento datetime,
+	id-atendente int,
+	id-clinica int
+	id-exame int,
+	id-receita int,
+	id-medico int,
+	id-paciente int,
+	id-convenio int,
+	diaginostico text
+);
 
