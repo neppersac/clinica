@@ -43,13 +43,12 @@ create table pacientes(
 	id_contato int
 
 );
-
-create table medicos(
-	id int not null auto_increment primary key,
+create table clinicas(
+	id int not null auto-increment primary key,
 	nome varchar(100) not null,
-	crm varchar(15),
-	id_endereco int,
-	id_contato int
-	
+	cnpj varchar (14),
+	id-endereco int,
+	id-contato int
 );
+
 
