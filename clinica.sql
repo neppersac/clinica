@@ -18,4 +18,15 @@ creat table enderecos(
 	uf varchar(2),
 	cep varchar(10)
 );
+create table pacientes(
+	id int not null auto_increment primary key,
+	nome varchar(100) not null,
+	cpf varchar(11),
+	dataNascimento date,
+	sexo varchar(1),
+	salario float,
+	id_endereco int,
+	id_contato int
+
+);
 
