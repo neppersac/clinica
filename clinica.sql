@@ -10,7 +10,7 @@ create table convenios(
 	numero varchar(15),
 	nome varchar(50)
 );
-create table atendente(
+create table atendentes(
  	id int not null auto_increment primary key,
       	nome varchar (100) not null,
 	cpf varchar (11),
