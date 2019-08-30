@@ -1,5 +1,8 @@
 CREATE DATABASE clinica;
 use clinica;
 create table contatos(
+  id int not null auto_increment primary key,
+	fone varchar(15),
+	email varchar(100)
 );
 
