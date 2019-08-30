@@ -8,6 +8,9 @@ INSERT INTO convenios (numero, nome) VALUES ( "1", "SUS");
 
 /** Inserir dados na tablea de medicos */
 
+/** Inserir dados na tablea de enderecos*/
+INSERT INTO enderecos (logradouro, bairro, cidade, uf, cep) VALUES ("Rua Monteiro, 3093", "Divino Pranto", "Humaitá", "AM", "69800000");
+
 
 /** Inserir dados na tablea de pacientes */
 
@@ -17,5 +20,3 @@ INSERT INTO convenios (numero, nome) VALUES ( "1", "SUS");
 
 
 
-
-/** Inserir dados na tabela de atendentes*/
