@@ -34,3 +34,5 @@ relatório de agendamentos de consultas médicas • alteração da senha de ace
 
 Requisitos Não Funcionais
 Navegador de Internet Atual; Banco de dados utilizado deve ser MySQL; Web Server deve ser Apache 2.0 ou compatível com PHP; Possuir controle de acesso por usuário e senha; Realizar log de acesso.
+
+Jão lol é melhor
