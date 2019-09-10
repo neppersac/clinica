@@ -1,17 +1,14 @@
 <?php
     include('conexao.php');
-    
+    $id = $_POST['id'];
     $fone = $_POST['fone'];
     $email = $_POST['email'];
         
-    $sql = "insert into contatos(fone, email) values ('$fone', '$email')";
+    $sql = "update contatos set fone = '$fone', email = '$email' where id = '$id'";
     //echo $sql;
     if ( $conexao->query( $sql ) === TRUE){
-        echo 'Cadastro com sucesso!';        
-?>
-        <form action="formulario_contatos.php" method="get">
-            <input type="submit" value="Cadastrar novo contato"/>
-        </form>
+        echo 'Alteração com sucesso!';        
+?>        
         <form action="lista_contatos.php" method="get">
             <input type="submit" value="Listar contatos"/>
         </form>
