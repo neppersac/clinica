@@ -15,8 +15,8 @@ create table atendente(
       	nome varchar (100) not null,
 	cpf varchar (11),
 	dataNascimento date,
-	sexo (1),
-	salario float(10),
+	sexo varchar (1),
+	salario float,
       	id_endereco int,
       	id_contato int
 );
