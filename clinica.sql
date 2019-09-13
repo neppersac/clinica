@@ -12,7 +12,7 @@ create table convenios(
 );
 create table atendente(
  	id int not null auto_increment primary key,
-      	nome varchar (100) not null,
+      	nome varchar (100),
 	cpf varchar (11),
 	dataNascimento date,
 	sexo varchar (1),
@@ -22,7 +22,7 @@ create table atendente(
 );
 create table exames(
 	id int not null auto-increment primary key,
-	nome varchar (100) not null
+	nome varchar (100)
 );
 create table enderecos(
 	id int not null auto_increment primary key,
@@ -34,7 +34,7 @@ create table enderecos(
 );
 create table pacientes(
 	id int not null auto_increment primary key,
-	nome varchar(100) not null,
+	nome varchar(100),
 	cpf varchar(11),
 	dataNascimento date,
 	sexo varchar(1),
@@ -45,7 +45,7 @@ create table pacientes(
 );
 create table clinicas(
 	id int not null auto-increment primary key,
-	nome varchar(100) not null,
+	nome varchar(100),
 	cnpj varchar (14),
 	id-endereco int,
 	id-contato int
@@ -53,7 +53,7 @@ create table clinicas(
 
 create table medicos(
 	id int not null auto_increment primary key,
-	nome varchar(100) not null,
+	nome varchar(100),
 	crm varchar(15),
 	id_endereco int,
 	id_contato int
